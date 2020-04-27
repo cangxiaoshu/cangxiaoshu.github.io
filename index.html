@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="导航特效">
+<meta name="description" content="导航特效">
+<meta name="author" content="AUI, a-ui.com">
+<meta name="baidu-site-verification" content="ZVPGgtpUfW"/>
+<title>仓小鼠的日常</title>
+
+
+<link href="css/base.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+
+<section id="nav-content" class="nav-menu-content-box">
+	<div class="nav-menu-content">
+		<div class="nav-menu-content-item">
+			<div class="nav-menu-content-cell">
+				<div class="nav-menu-content-sell">
+					<div class="nav-menu-content-list">
+						<div class="nav-menu-content-home">
+							<a href="#">首页</a>
+						</div>
+						<div class="nav-menu-content-info">
+							<div class="navMenu-item navMenu-item-one">
+								<a href="javascript:;" class="navMenu-title">个人网站</a>
+								<div class="navMenu-item-content">
+									<ul>
+										<li>
+											<a href="javascript:;">CSDN</a>
+										</li>
+										<li>
+											<a href="javascript:;">简书</a>
+										</li>
+										<li>
+											<a href="javascript:;">博客园</a>
+										</li>
+										<li>
+											<a href="javascript:;">起点中文网</a>
+										</li>
+										<li>
+											<a href="javascript:;">####</a>
+										</li>
+										<li>
+											<a href="javascript:;">####</a>
+										</li>
+										<li>
+											<a href="javascript:;">####</a>
+										</li>
+										<li>
+											<a href="javascript:;">####</a>
+										</li>
+										<li>
+											<a href="javascript:;">####</a>
+										</li>
+										<li>
+											<a href="javascript:;">####</a>
+										</li>
+										<li>
+											<a href="javascript:;">####</a>
+										</li>
+										<li>
+											<a href="javascript:;">####</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="navMenu-item navMenu-item-two">
+								<a href="javascript:;" class="navMenu-title">技术网站</a>
+								<div class="navMenu-item-content">
+									<ul>
+										<li>
+											<a href="tech/wine.html">数据处理</a>
+										</li>
+										<li>
+											<a href="javascript:;">知道数据</a>
+										</li>
+										<li>
+											<a href="javascript:;">知道日报</a>
+										</li>
+										<li>
+											<a href="javascript:;">知道信息</a>
+										</li>
+										<li>
+											<a href="javascript:;">知道非遗</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="navMenu-item navMenu-item-three">
+								<a href="javascript:;" class="navMenu-title">
+									生活 <div class="nav-icon">N</div>
+								</a>
+								<div class="navMenu-item-content">
+									<ul>
+										<li style="width:100%">
+											<a href="">表白网站</a>
+										</li>
+										<li>
+											<a href="life/index.html">第一次</a>
+										</li>
+										<li>
+											<a href="javascript:;">芝麻将</a>
+										</li>
+										<li>
+											<a href="javascript:;">知道行家</a>
+										</li>
+										<li>
+											<a href="javascript:;">日报作者</a>
+										</li>
+										<li>
+											<a href="javascript:;">知道之星</a>
+										</li>
+										<div class="navMenu-list-title">
+											机构合作
+										<div class="navMenu-list-line"></div>
+										</div>
+										<li>
+											<a href="javascript:;">机构行家</a>
+										</li>
+										<li>
+											<a href="javascript:;">开放平台</a>
+										</li>
+										<li>
+											<a href="javascript:;">品牌合作</a>
+										</li>
+										<div class="navMenu-list-title">
+											知道福利
+										<div class="navMenu-list-line"></div>
+										</div>
+										<li>
+											<a href="javascript:;">财富商城</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="navMenu-item navMenu-item-four">
+								<a href="javascript:;" class="navMenu-title">特色</a>
+								<div class="navMenu-item-content">
+									<ul>
+										<li>
+											<a href="javascript:;">
+												<span class="navMenu-item-img">
+													<img src="img/a1.png" alt="">
+												</span>
+												<span class="navMenu-item-tex">经验</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:;">
+												<span class="navMenu-item-img">
+													<img src="img/b1.png" alt="">
+												</span>
+												<span class="navMenu-item-tex">宝宝知道</span>
+											</a>
+										</li>
+										<li>
+											<a href="javascript:;">
+												<span class="navMenu-item-img">
+													<img src="img/c1.png" alt="">
+												</span>
+												<span class="navMenu-item-tex">作业帮</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+
+		$('.nav-menu-content-box').hover(function() {
+			$(this).addClass('dow-hover');
+			$(".nav-menu-content").show('slow');
+		}, function() {
+			$(this).removeClass('dow-hover');
+		});
+
+	});
+
+	var maxHeight = 400;
+
+	$(function(){
+
+		$(".nav-menu-content-box > li").hover(function() {
+
+			var $container = $(this),
+				$list = $container.find("ul"),
+				$anchor = $container.find("a"),
+				height = $list.height() * 1.1,
+				multiplier = height / maxHeight;
+
+			$container.data("origHeight", $container.height());
+
+			$anchor.addClass("hover");
+
+			$list
+				.show()
+				.css({
+					paddingTop: $container.data("origHeight")
+				});
+
+			if (multiplier > 1) {
+				$container
+					.css({
+						height: maxHeight,
+						overflow: "hidden"
+					})
+					.mousemove(function(e) {
+						var offset = $container.offset();
+						var relativeY = ((e.pageY - offset.top) * multiplier) - ($container.data("origHeight") * multiplier);
+						if (relativeY > $container.data("origHeight")) {
+							$list.css("top", -relativeY + $container.data("origHeight"));
+						};
+					});
+			}
+
+		}, function() {
+
+			var $el = $(this);
+
+			$el
+				.height($(this).data("origHeight"))
+				.find("ul")
+				.css({ top: 0 })
+				.hide()
+				.end()
+				.find("a")
+				.removeClass("hover");
+
+		});
+
+	});
+
+</script>
+<div style="text-align:center;">
+<img src="img/time.jpg"width="100%"height="100%"/>
+</div>
+</body>
+</html>
