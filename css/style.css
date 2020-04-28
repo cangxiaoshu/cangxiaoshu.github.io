@@ -1,3 +1,7 @@
+body{
+	background-image: url(../img/time.jpg);
+}
+
 .nav-menu-content-box {
     z-index: 100;
     position: relative;
@@ -8,9 +12,9 @@
     height: 40px;
     position: relative;
     z-index: 100;
-    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.2);
-    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.2);
-    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0);
+    box-shadow: 0 1px 1px rgba(0,0,0,0);
 }
 
 .nav-menu-content-item {
@@ -18,8 +22,9 @@
     height: 325px;
     position: absolute;
     width: 100%;
-    background-color: #f1f1f1;
-    background-color: rgba(243,243,243,.95);
+	background-color:transparent;
+    /*background-color: #f1f1f1;*/
+    background-color: rgba(243,243,243,0);
     -webkit-transition: all .2s ease-in;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -29,7 +34,8 @@
 .nav-menu-content-cell {
     height: 40px;
     width: 100%;
-    background: #0abf00;
+    
+	background-color:transparent;
 }
 
 .nav-menu-content-sell {
@@ -61,7 +67,7 @@
     font-size: 16px;
     height: 40px;
     line-height: 40px;
-    border-right: 1px solid #09a800;
+    border-right: 0px solid ;
 }
 
 .nav-menu-content-info {
@@ -83,7 +89,7 @@
     font-size: 16px;
     line-height: 40px;
     height: 40px;
-    border-right: 1px solid #09a800;
+    border-right: 0px solid #000000;
     text-align: center;
     text-decoration: none;
     position: relative;
@@ -91,7 +97,7 @@
 
 .navMenu-item-content {
     height: 285px;
-    border-right: 1px solid #ddd;
+    border-right: 0px solid #ddd;
     transition: all ease-in .2s;
     padding-top: 15px;
 }
@@ -114,17 +120,17 @@
 }
 
 .navMenu-item:hover .navMenu-title {
-    background: #36ca61;
+    background: none;
     cursor: pointer;
 }
 
 .navMenu-item:hover .navMenu-item-content {
-    background-color: #fff;
+    background-color: none;
     cursor: pointer;
 }
 
 .navMenu-item-content ul li a:hover {
-    color: #35b558;
+    color: #000000;
     border-bottom: 2px solid #4aca6d
 }
 
@@ -151,7 +157,7 @@
     line-height: 26px;
     /* margin-top: 6px; */
     text-align: center;
-    color: #b8b8b8;
+    color: none;
     position: relative;
     float: left;
     font-family: 'Microsoft YaHei';

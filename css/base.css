@@ -1,23 +1,20 @@
 /*
-*  author: AUI
-*  base.css
-*  http://azenui.com/
-*  http://a-ui.cn/
+cangxioashu
 */
 ::-webkit-scrollbar {
     display: none;
 }
 
 ::-moz-placeholder {
-    color: #aaa;
+    color: none;
 }
 
 ::-webkit-input-placeholder {
-    color: #aaa;
+    color: none;
 }
 
 :-ms-input-placeholder {
-    color: #aaa;
+    color: none;
 }
 
 ::selection {
@@ -53,7 +50,7 @@ a {
 
 hr {
     height: 1px;
-    background: #ccc;
+    background: none;
     width: 100%;
     border: none;
     margin: 0;
@@ -102,7 +99,7 @@ button {
 
 mark {
     color: #000;
-    background: #ff0;
+    background: #3D3D3D;
 }
 
 small {
@@ -133,7 +130,7 @@ a {
 }
 
 a:hover {
-    color: #eee;
+    color: none;
 }
 
 em {
